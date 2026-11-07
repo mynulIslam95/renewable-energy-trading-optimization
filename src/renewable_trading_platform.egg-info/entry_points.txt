@@ -1,2 +1,0 @@
-[console_scripts]
-renewable-trading = renewable_trading.cli:main

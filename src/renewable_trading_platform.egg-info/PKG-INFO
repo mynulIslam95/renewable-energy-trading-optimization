@@ -1,7 +1,0 @@
-Metadata-Version: 2.4
-Name: renewable-trading-platform
-Version: 0.3.0
-Summary: Reproducible German renewable energy forecasting and trading research platform
-Requires-Python: >=3.10
-Provides-Extra: dev
-Requires-Dist: pytest>=7; extra == "dev"

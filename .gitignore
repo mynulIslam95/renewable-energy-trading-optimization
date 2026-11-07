@@ -13,3 +13,4 @@ results/
 *.db
 
 data/synthetic_market_2023_2025.csv
+*.egg-info/
