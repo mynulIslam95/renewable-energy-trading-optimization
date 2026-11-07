@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+results/
+*.sqlite
+*.db
+
+data/synthetic_market_2023_2025.csv

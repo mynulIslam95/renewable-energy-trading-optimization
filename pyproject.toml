@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "renewable-trading-platform"
+version = "0.3.0"
+description = "Reproducible German renewable energy forecasting and trading research platform"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+renewable-trading = "renewable_trading.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
